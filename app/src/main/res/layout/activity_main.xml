@@ -32,16 +32,18 @@
 
         <Button
             style="@style/buttonNumber"
-            android:text="9"/>
+            android:onClick="numberAction"
+            android:text="7"/>
+        <Button
+            style="@style/buttonNumber"
+            android:text="8"/>
         <Button
             style="@style/buttonNumber"
             android:text="9"/>
         <Button
+            android:onClick="operatorAction"
             style="@style/buttonNumber"
-            android:text="9"/>
-        <Button
-            style="@style/buttonNumber"
-            android:text="9"/>
+            android:text="x"/>
 
     </LinearLayout>
 
